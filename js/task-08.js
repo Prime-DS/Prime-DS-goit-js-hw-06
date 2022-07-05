@@ -16,4 +16,6 @@ function onFormSubmit(event) {
         };
     console.log(formData);
     }
+
+    return formEl.reset();
 }
