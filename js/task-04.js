@@ -7,10 +7,11 @@ decrementBtnEl.addEventListener('click', onClickBtnMinus);
 incrementBtnEl.addEventListener('click', onClickBtnPlus);
 
 function onClickBtnMinus(event) {
-    velueEl.textContent = counterValue;
     counterValue -= 1;
+    velueEl.textContent = counterValue;
+    
 };
 function onClickBtnPlus(event) {
-    velueEl.textContent = counterValue;
     counterValue += 1;
+    velueEl.textContent = counterValue;
 };
